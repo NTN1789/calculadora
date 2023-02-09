@@ -1,0 +1,14 @@
+.display{
+
+    grid-column: span 4 ;
+
+    background-color: tomato;
+
+    display: flex;
+
+    justify-content: flex-end;
+    align-items: center;
+    padding:1.2rem ;
+    font-size:2.3em ;
+    overflow: hidden;
+}
