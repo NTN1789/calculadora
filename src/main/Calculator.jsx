@@ -30,7 +30,7 @@ export default class Calculator extends Component {
             }
             else {
                 const equals = operation === "="
-                const currentOperation = this.state.operation                        //para o usuario somar mais de uma vez colocando o operador + 
+                const currentOperation = this.state.operation                     //para o usuario somar mais de uma vez colocando o operador + 
           
         
                 const values = [...this.state.values]
@@ -97,9 +97,6 @@ export default class Calculator extends Component {
 
         const setOperation = op => this.setOperation(op)
 
-        
-
-
         return (
             <div>
                 <div className='calculator'>
@@ -122,7 +119,6 @@ export default class Calculator extends Component {
                     <Button label="0" click={addDigit}/>
                     <Button label="."click={addDigit} />
                     <Button label="=" click={setOperation}  double/>
-                  
                 
                 </div>
 
